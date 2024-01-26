@@ -1,0 +1,13 @@
+[package]
+name = "NistP256"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name="NistP256"
+crate-type = ["cdylib"]
+
+[dependencies]
+p256 = "0.13.2"
