@@ -37,21 +37,11 @@ jobs:
             target: arm-unknown-linux-musleabi
             bin: libNistP256.so
             name: NistP256-Linux-arm-musl.tar.gz
-          - os_name: Linux-i686
-            os: ubuntu-20.04
-            target: i686-unknown-linux-musl
-            bin: libNistP256.so
-            name: NistP256-Linux-i686-musl.tar.gz
           - os_name: Windows-aarch64
             os: windows-latest
             target: aarch64-pc-windows-msvc
             bin: NistP256.dll
             name: NistP256-Windows-aarch64.zip
-          - os_name: Windows-i686
-            os: windows-latest
-            target: i686-pc-windows-msvc
-            bin: NistP256.dll
-            name: NistP256-Windows-i686.zip
           - os_name: Windows-x86_64
             os: windows-latest
             target: x86_64-pc-windows-msvc
