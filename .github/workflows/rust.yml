@@ -12,6 +12,7 @@ env:
   CRATE_NAME: NistP256
   GITHUB_TOKEN: ${{ github.token }}
   RUST_BACKTRACE: 1
+  RUSTFLAGS: "-C target-feature=-crt-static"
 
 jobs:
   test:
